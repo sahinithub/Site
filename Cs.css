@@ -1,0 +1,62 @@
+body{
+    width: 97vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.container{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.main{
+    width: 96%;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    word-spacing: 20px;
+    gap: 60px;
+    
+    color: white;
+}
+
+.page-link {
+  cursor: pointer;
+  user-select: none;
+}
+
+.middle{
+    background-color: black;
+    width: 96%;
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('белуга.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
